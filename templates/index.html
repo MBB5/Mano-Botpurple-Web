@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ManoBotPurple — Grimoire Public</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<nav>
+  <div class="nav-brand">🪄 ManoBotPurple</div>
+  <div class="nav-links">
+    <a href="/" data-page="accueil">🏠 Accueil</a>
+    <a href="/#baguettes" data-page="baguettes">🪄 Baguettes</a>
+    <a href="/#balais" data-page="balais">🧹 Balais</a>
+    <a href="/#infos" data-page="infos">📖 Infos</a>
+    <a href="/#tutoriel" data-page="tutoriel">🎓 Tutoriel</a>
+    <a href="/#calcul" data-page="calcul">🧮 Calculateur</a>
+  </div>
+</nav>
+
+<main>
+  <!-- ============ ACCUEIL ============ -->
+  <section id="page-accueil" class="page">
+    <h1>Grimoire Public — MBB5</h1>
+    <p class="subtitle">Consultez les prix, recettes et calculs d'artisanat, mis à jour en direct par ManoBotPurple.</p>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-num">{{ stats.recettes_baguettes }}</div><div class="stat-label">📜 Recettes de Baguettes</div></div>
+      <div class="stat-card"><div class="stat-num">{{ stats.ventes_baguettes }}</div><div class="stat-label">🏷️ Prix de vente Baguettes</div></div>
+      <div class="stat-card"><div class="stat-num">{{ stats.recettes_balais }}</div><div class="stat-label">📜 Recettes de Balais</div></div>
+      <div class="stat-card"><div class="stat-num">{{ stats.ventes_balais }}</div><div class="stat-label">🏷️ Prix de vente Balais</div></div>
+    </div>
+  </section>
+
+  <!-- ============ BAGUETTES ============ -->
+  <section id="page-baguettes" class="page" hidden>
+    <h1>🪄 La Baguette de Mano</h1>
+    <input id="search-baguettes" class="search" type="text" placeholder="🔍 Rechercher une baguette, un kit, un prix...">
+    <div class="tabs-mini">
+      <button class="mini-tab active" data-tab="prix-b">🏷️ Prix</button>
+      <button class="mini-tab" data-tab="recettes-b">📜 Recettes</button>
+    </div>
+    <div id="tab-prix-b" class="mini-pane">
+      <h2>Prix de vente</h2><div id="vente-baguettes" class="cards-grid"></div>
+      <h2>Prix de réparation</h2><div id="repa-baguettes" class="cards-grid"></div>
+    </div>
+    <div id="tab-recettes-b" class="mini-pane" hidden>
+      <div class="pane-head">
+        <h2>📜 Recettes</h2>
+        <div class="tarif-options" id="tarif-options-b">
+          <label><input type="checkbox" value="magicarium" checked><span>🔮 Magicarium</span></label>
+          <label><input type="checkbox" value="defaut" checked><span>Marchand 1691</span></label>
+          <label><input type="checkbox" value="gilga"><span>Gilga</span></label>
+          <label><input type="checkbox" value="soi"><span>Forgeron</span></label>
+        </div>
+      </div>
+      <div id="recettes-baguettes" class="cards-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ BALAIS ============ -->
+  <section id="page-balais" class="page" hidden>
+    <h1>🧹 Le Balais de Mano</h1>
+    <input id="search-balais" class="search" type="text" placeholder="🔍 Rechercher un balai...">
+    <div class="tabs-mini">
+      <button class="mini-tab active" data-tab="prix-bl">🏷️ Prix</button>
+      <button class="mini-tab" data-tab="recettes-bl">📜 Recettes</button>
+    </div>
+    <div id="tab-prix-bl" class="mini-pane">
+      <h2>Prix de vente</h2><div id="vente-balais" class="cards-grid"></div>
+      <h2>Prix de réparation</h2><div id="repa-balais" class="cards-grid"></div>
+    </div>
+    <div id="tab-recettes-bl" class="mini-pane" hidden>
+      <div class="pane-head">
+        <h2>📜 Recettes</h2>
+        <div class="tarif-options" id="tarif-options-bl">
+          <label><input type="checkbox" value="magicarium" checked><span>🔮 Magicarium</span></label>
+          <label><input type="checkbox" value="defaut" checked><span>Marchand 1691</span></label>
+          <label><input type="checkbox" value="gilga"><span>Gilga</span></label>
+          <label><input type="checkbox" value="soi"><span>Forgeron</span></label>
+        </div>
+      </div>
+      <div id="recettes-balais" class="cards-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ INFOS ============ -->
+  <section id="page-infos" class="page" hidden>
+    <h1>📖 Infos — Baguettes & Balais</h1>
+    <p class="subtitle">Fiches détaillées : image, récupération, durabilité. Utilisez les filtres pour affiner votre recherche.</p>
+    <div class="fiche-filters">
+      <input id="fiche-search" class="search" type="text" placeholder="🔍 Rechercher un nom...">
+      <div class="filter-row">
+        <label>Type
+          <select id="filtre-type">
+            <option value="">Tous</option>
+            <option value="Baguette">Baguette</option>
+            <option value="Balais">Balais</option>
+          </select>
+        </label>
+        <label>Durabilité
+          <select id="filtre-duree">
+            <option value="">Toutes</option>
+            <option>Très bonne</option>
+            <option>Bonne</option>
+            <option>Mauvaise</option>
+          </select>
+        </label>
+        <label>💰 Coûtant min <input id="filtre-coutant-min" type="number" min="0" placeholder="0"></label>
+        <label>💰 Coûtant max <input id="filtre-coutant-max" type="number" min="0" placeholder="∞"></label>
+        <label>🏪 Vente min <input id="filtre-vente-min" type="number" min="0" placeholder="0"></label>
+        <label>🏪 Vente max <input id="filtre-vente-max" type="number" min="0" placeholder="∞"></label>
+        <label>♻️ Récup. min <input id="filtre-recup-min" type="number" min="1" placeholder="1"></label>
+        <label>♻️ Récup. max <input id="filtre-recup-max" type="number" min="1" placeholder="∞"></label>
+      </div>
+    </div>
+    <div class="admin-bar">
+      <button id="admin-login-btn" class="btn-primary">🔐 Connexion administrateur</button>
+      <button id="admin-logout-btn" class="btn-primary" hidden>🚪 Déconnexion</button>
+      <span id="admin-status" class="meta"></span>
+    </div>
+    <div id="admin-login-box" class="item-card" hidden style="max-width:380px;margin-bottom:16px">
+      <h3>🔐 Connexion administrateur</h3>
+      <input id="admin-password" class="search" type="password" placeholder="Mot de passe">
+      <button id="admin-login-confirm" class="btn-primary">Se connecter</button>
+      <div id="admin-login-error" class="meta" style="color:var(--red)"></div>
+    </div>
+    <div id="fiches-grid" class="cards-grid"></div>
+  </section>
+
+  <!-- ============ TUTORIEL ============ -->
+  <section id="page-tutoriel" class="page" hidden>
+    <h1>🎓 Tutoriel du site</h1>
+    <div class="item-card" style="max-width:800px">
+      <h3>🏠 Accueil</h3>
+      <div class="details">Vue d'ensemble du grimoire : nombre de recettes et de prix enregistrés pour les baguettes et les balais.</div>
+    </div>
+    <div class="item-card" style="max-width:800px">
+      <h3>🪄 Baguettes & 🧹 Balais</h3>
+      <div class="details">Deux onglets :<br>• <b>Prix</b> — prix de vente et de réparation, avec la recherche en haut.<br>• <b>Recettes</b> — ingrédients et synthèse : kits de base, cristaux, magicarium, coût total en Galyons (selon les tarifs magicarium cochés en haut à droite) et temps de récolte.</div>
+    </div>
+    <div class="item-card" style="max-width:800px">
+      <h3>📖 Infos</h3>
+      <div class="details">Liste complète des baguettes et balais avec image, récupération et durabilité. Filtres disponibles : type, prix coûtant, prix de vente, récupération, durabilité. Les administrateurs peuvent se connecter (bouton 🔐) pour ajouter une image à chaque fiche.</div>
+    </div>
+    <div class="item-card" style="max-width:800px">
+      <h3>🧮 Calculateur</h3>
+      <div class="details">Choisissez le prix du Magicarium (Marchand 1691, Gilga ou Forgeron), collez votre liste d'ingrédients (ex. « • 4x Kits d'Excellence ») puis cliquez sur Calculer : vous obtenez le nombre de kits de base, leur coût, le coût magicarium et le TOTAL en Galyons.</div>
+    </div>
+  </section>
+
+  <!-- ============ CALCULATEUR ============ -->
+  <section id="page-calcul" class="page" hidden>
+    <h1>🧮 Calculateur Kits / Cristaux / Magicarium</h1>
+    <p class="subtitle">Collez une liste d'ingrédients (ex. "• 4x Kits d'Excellence") pour obtenir le coût total.</p>
+    <label for="calcul-tarif" style="display:block;margin:0.5rem 0;font-weight:600">Prix du Magicarium :</label>
+    <select id="calcul-tarif" style="margin-bottom:0.75rem;padding:0.4rem 0.6rem;border-radius:8px">
+      <option value="defaut">Prix par défaut (1 691 Galyons)</option>
+      <option value="gilga">Prix Gilga (600 Galyons)</option>
+      <option value="soi">Prix Forgeron (moi-même) (280 Galyons)</option>
+    </select>
+    <textarea id="calcul-input" rows="6" placeholder="• 2x Kits d'Excellence&#10;• 5x Kits Renforcés&#10;• 102x Cristaux du Néant"></textarea>
+    <button id="calcul-btn" class="btn-primary">Calculer</button>
+    <div id="calcul-result"></div>
+  </section>
+</main>
+
+<footer>ManoBotPurple · Données synchronisées avec le bot Discord · <span id="build-info">MBB5</span></footer>
+
+<div id="admin-floating-widget" class="admin-floating">
+  <button id="admin-floating-toggle" class="btn-primary admin-float-btn">🔐 Admin</button>
+  <div id="admin-floating-panel" class="admin-float-panel" hidden>
+    <div id="admin-floating-login" class="admin-float-section">
+      <h3>🔐 Connexion admin</h3>
+      <input id="admin-floating-password" type="password" class="search" placeholder="Mot de passe">
+      <button id="admin-floating-login-btn" class="btn-primary">Se connecter</button>
+      <div id="admin-floating-error" class="meta" style="color:var(--red)"></div>
+    </div>
+    <div id="admin-floating-editor" class="admin-float-section" hidden>
+      <h3>✏️ Édition globale</h3>
+      <label>Module
+        <select id="admin-module-select">
+          <option value="baguettes">Baguettes</option>
+          <option value="balais">Balais</option>
+        </select>
+      </label>
+      <label>Type
+        <select id="admin-kind-select">
+          <option value="prix">Prix</option>
+          <option value="recette">Recette</option>
+        </select>
+      </label>
+      <label>Élément
+        <select id="admin-item-select"></select>
+      </label>
+      <div id="admin-edit-form"></div>
+      <button id="admin-save-btn" class="btn-primary">💾 Enregistrer</button>
+      <button id="admin-floating-logout-btn" class="btn-primary" style="margin-top:8px">🚪 Déconnexion</button>
+    </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
