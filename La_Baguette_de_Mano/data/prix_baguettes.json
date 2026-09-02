@@ -1,0 +1,699 @@
+{
+  "Prixdeventesbaguettes": {
+    "Baguette de Magicien": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "500 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Lunargile": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "10 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Férivane": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "10 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Sépyalys": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "52 500 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Floregriffe": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "96 400 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Nébulys": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "96 400 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Obscurine": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "133 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Velbrise": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "155 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Ecumebois": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "155 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Rocombre": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "185 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Silétoile": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "241 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Orphéa": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "241 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Aubeclair": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "292 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Sanglure": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "301 000 G.",
+      "date": "20/08/2026"
+    },
+    "Drymobius": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "442 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Ventdelys": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "459 000 G.",
+      "date": "20/08/2026"
+    },
+    "Farancia": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "459 000 G.",
+      "date": "20/08/2026"
+    },
+    "Rosyboa": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "459 000 G.",
+      "date": "20/08/2026"
+    },
+    "Oxybelis": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "472 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Lamesylve": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "742 000 G.",
+      "date": "20/08/2026"
+    },
+    "Insularis": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "931 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Héliodort": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 290 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Cornaline": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 330 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Grenadigne": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 330 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Jadeor": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 370 000 G.",
+      "date": "20/08/2026"
+    },
+    "Erébos": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 560 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Songeur": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 600 000 G.",
+      "date": "20/08/2026"
+    },
+    "Ambregard": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 600 000 G.",
+      "date": "20/08/2026"
+    },
+    "Tartaros": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 600 000 G.",
+      "date": "20/08/2026"
+    },
+    "Achéron": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 600 000 G.",
+      "date": "20/08/2026"
+    },
+    "Visionis - Rubicular": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 650 000 G.",
+      "date": "20/08/2026"
+    },
+    "Irisée": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 650 000 G.",
+      "date": "20/08/2026"
+    },
+    "Styx": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 650 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Aiguemer": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "2 370 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Sépucral": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "2 370 000 G.",
+      "date": "20/08/2026"
+    },
+    "Emeroeil": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "2 430 000 G.",
+      "date": "20/08/2026"
+    },
+    "Black Baccara": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 260 000 G.",
+      "date": "20/08/2026"
+    },
+    "Blue Moon": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 260 000 G.",
+      "date": "20/08/2026"
+    },
+    "Botero": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 260 000 G.",
+      "date": "20/08/2026"
+    },
+    "Centifolia": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 260 000 G.",
+      "date": "20/08/2026"
+    },
+    "Wonder Wands Consortium du Peuple": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "500 G.",
+      "date": "20/08/2026"
+    },
+    "Wonder Wands Le Sanctuaire des Sorciers Ancestraux": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "500 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Coeur-de-Lycorne": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "1 290 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Améthyste": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "2 250 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Nagrylia": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "2 370 000 G.",
+      "date": "20/08/2026"
+    },
+    "Moldavite": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 080 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Azurin": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 260 000 G.",
+      "date": "20/08/2026"
+    },
+    "Vatia": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 420 000 G.",
+      "date": "20/08/2026"
+    },
+    "Théridion": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "5 280 000 G.",
+      "date": "20/08/2026"
+    },
+    "Caribena": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "5 280 000 G.",
+      "date": "20/08/2026"
+    },
+    "Virescens": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "5 400 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Serpombre": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "6 920 000 G.",
+      "date": "20/08/2026"
+    },
+    "Aragonite": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "7 560 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Astreline": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "8 690 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Orpheline": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "8 890 000 G.",
+      "date": "20/08/2026"
+    },
+    "Labradorite": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "9 700 000 G.",
+      "date": "20/08/2026"
+    },
+    "Jasper": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "9 700 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette d'Ombrelune": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "10 400 000 G.",
+      "date": "20/08/2026"
+    },
+    "Metallica": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "11 100 000 G.",
+      "date": "20/08/2026"
+    },
+    "Azurite": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "11 600 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Roselin": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "12 500 000 G.",
+      "date": "20/08/2026"
+    },
+    "Baguette Ardente": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "20 500 000 G.",
+      "date": "20/08/2026"
+    },
+    "Andromeda": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "30 500 000 G.",
+      "date": "20/08/2026"
+    },
+    "Pyxis": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "30 500 000 G.",
+      "date": "20/08/2026"
+    },
+    "Jildun": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "30 500 000 G.",
+      "date": "20/08/2026"
+    },
+    "Auriga": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "31 100 000 G.",
+      "date": "20/08/2026"
+    },
+    "Ran": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "31 100 000 G.",
+      "date": "20/08/2026"
+    },
+    "Eridani": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "31 700 000 G.",
+      "date": "20/08/2026"
+    },
+    "Vildiur": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "31 800 000 G.",
+      "date": "20/08/2026"
+    },
+    "Cygnus": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "38 300 000 G.",
+      "date": "20/08/2026"
+    },
+    "Belenos": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "39 100 000 G.",
+      "date": "20/08/2026"
+    },
+    "Véga": {
+      "stats": "Prix Coutant 42600000",
+      "date": "20/08/2026 à 08:15"
+    },
+    "Purple Eden": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "3 260 000 G.",
+      "date": "20/08/2026"
+    },
+    "Léthée": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "5 160 000 G.",
+      "date": "20/08/2026"
+    },
+    "Laziris": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "7 080 000 G.",
+      "date": "20/08/2026"
+    }
+  },
+  "Prixderepabaguettes": {
+    "Baguette de Magicien": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Lunargile": {
+      "coutant": "100",
+      "client": "150",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Férivane": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Sépyalys": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Floregriffe": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Nébulys": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Obscurine": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Velbrise": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Ecumebois": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Rocombre": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Silétoile": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Orphéa": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Aubeclair": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Sanglure": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Drymobius": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Ventdelys": {
+      "coutant": "574",
+      "client": "1000",
+      "pnj": "1149",
+      "date": "20/08/2026"
+    },
+    "Farancia": {
+      "coutant": "?",
+      "client": "1000",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Rosyboa": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Oxybelis": {
+      "coutant": "?",
+      "client": "500",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Lamesylve": {
+      "coutant": "574",
+      "client": "1000",
+      "pnj": "1416",
+      "date": "20/08/2026"
+    },
+    "Baguette Roselin": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Baguette Ardente": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Andromeda": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Pyxis": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Jildun": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Auriga": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Ran": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Eridani": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Vildiur": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Cygnus": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Belenos": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Véga": {
+      "coutant": "?",
+      "client": "3500",
+      "pnj": "3988",
+      "date": "20/08/2026"
+    },
+    "Purple Eden": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Léthée": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Laziris": {
+      "coutant": "?",
+      "client": "?",
+      "pnj": "?",
+      "date": "20/08/2026"
+    },
+    "Aiguemer": {
+      "coutant": "710",
+      "client": "1100",
+      "pnj": "1421",
+      "date": "20/08/2026"
+    },
+    "Theridion": {
+      "coutant": "445",
+      "client": "600",
+      "pnj": "891",
+      "date": "20/08/2026"
+    },
+    "Erebos": {
+      "coutant": "1000",
+      "client": "1500",
+      "pnj": "2001",
+      "date": "20/08/2026"
+    },
+    "Styx": {
+      "coutant": "574",
+      "client": "?",
+      "pnj": "1149",
+      "date": "20/08/2026"
+    },
+    "Songeur": {
+      "coutant": "710",
+      "client": "1100",
+      "pnj": "1421",
+      "date": "20/08/2026"
+    },
+    "Lunargile": {
+      "coutant": "100",
+      "client": "150",
+      "pnj": "200"
+    }
+  }
+}

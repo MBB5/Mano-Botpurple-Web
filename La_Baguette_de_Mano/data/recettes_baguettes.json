@@ -1,0 +1,349 @@
+{
+  "Recettesbaguettes": {
+    "Léthée": {
+      "ingredients": "• 2x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Baguette Ardente": {
+      "ingredients": "• 4 480 Kits de base\n• 640 Cristaux Solaires additionnels\n• 7 680 Magicarium additionnel",
+      "details": "💰 Coût des kits : 14 336 000 Galyons\nℹ️ Tarif de référence : 3 200 G / kit de base",
+      "date": "20/08/2026"
+    },
+    "Ran": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Belenos": {
+      "ingredients": "• 1x Kit d'Exception\n• 2x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Véga": {
+      "ingredients": "• 10 500 Kits de base (5 Excellence et 1 Exception)\n• 1 500 Cristaux Solaires additionnels\n• 18 000 Magicarium additionnel",
+      "details": "💰 Coût des kits : 33 600 000 Galyons\nℹ️ Composition : 5 Kits d'Excellence + 1 Kit d'Exception\nℹ️ Tarif de référence : 3 200 G / kit de base",
+      "date": "20/08/2026"
+    },
+    "Kit de Base": {
+      "ingredients": "• 10x Bois D'Argentciel\n• 10x Bois D'Ombre-éclat\n• 10x Bois de Vigile-Obscure\n• 10x Cristal Solaire\n• 10x Os Ancestraux\n• 10x Néant Déferlant\n• 10x Néant Flamboyant\n• 10x Néant Arcanique\n• 10x Cristal du Néant\n• 10x Néant Tellurique\n• 10x Néant Funeste",
+      "details": "💰 Tarif de référence : 3 200 Galyons par kit de baguette simple\n📦 10 unités de chaque composant (10 composants au total)",
+      "date": "20/08/2026"
+    },
+    "Kit Renforcé": {
+      "ingredients": "• 7x Kits de base\n• 1x Cristal Solaire\n• 12x Magicarium",
+      "details": "⚙️ Palier 1 d'assemblage\n💰 Coût en kits de base : 22 400 Galyons",
+      "date": "20/08/2026"
+    },
+    "Kit Magistral": {
+      "ingredients": "• 10x Kits Renforcés\n(Équivalent à : 70 Kits de base + 10 Cristaux Solaires + 120 Magicarium)",
+      "details": "⚙️ Palier 2 d'assemblage\n💰 Coût en kits de base : 224 000 Galyons",
+      "date": "20/08/2026"
+    },
+    "Kit d'Excellence": {
+      "ingredients": "• 10x Kits Magistraux\n(Équivalent à : 100 Kits Renforcés = 700 Kits de base + 100 Cristaux Solaires + 1 200 Magicarium)",
+      "details": "⚙️ Palier 3 d'assemblage\n💰 Coût en kits de base : 2 240 000 Galyons",
+      "date": "20/08/2026"
+    },
+    "Kit d'Exception": {
+      "ingredients": "• 10x Kits d'Excellence\n(Équivalent à : 1 000 Kits Renforcés = 7 000 Kits de base + 1 000 Cristaux Solaires + 12 000 Magicarium)",
+      "details": "⚙️ Palier 4 d'assemblage\n💰 Coût en kits de base : 22 400 000 Galyons",
+      "date": "20/08/2026"
+    },
+    "Guide des Kits": {
+      "ingredients": "• 1 Kit Renforcé = 7 Kits de base + 1 Cristal Solaire + 12 Magicarium\n• 1 Kit Magistral = 10 Kits Renforcés\n• 1 Kit d'Excellence = 10 Kits Magistraux\n• 1 Kit d'Exception = 10 Kits d'Excellence",
+      "details": "💰 Tarif de référence : 3 200 Galyons / kit simple\n📦 1 Kit simple = 10 unités de chaque composant (10 types de composants)",
+      "date": "20/08/2026"
+    },
+    "Aubéclair": {
+      "ingredients": "• 1x Kit Magistral",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sanglure": {
+      "ingredients": "• 1x Kit Magistral\n• 1x Kit Renforcé",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ventdelys": {
+      "ingredients": "• 1x Kit Magistral\n• 5x Kits Renforcés\n• 3x Kits de base\n• 102x Cristaux du Néant",
+      "details": "⚙️ Recette de fabrication de baguette avec Cristaux du Néant",
+      "date": "20/08/2026 à 20:58"
+    },
+    "Lamesylve": {
+      "ingredients": "• 2x Kits Magistraux\n• 3x Kits Renforcés\n• 6x Kits de base\n• 143x Cristaux du Néant",
+      "details": "⚙️ Recette de fabrication de baguette avec Cristaux du Néant",
+      "date": "20/08/2026 à 20:58"
+    },
+    "Farancia": {
+      "ingredients": "• 1x Kit Magistral\n• 5x Kits Renforcés\n• 3x Kits de base\n• 102x Cristaux du Néant",
+      "details": "⚙️ Recette de fabrication de baguette avec Cristaux du Néant",
+      "date": "20/08/2026 à 20:58"
+    },
+    "Insularis": {
+      "ingredients": "• 3x Kits Magistraux\n• 2x Kits de base",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Drymobius": {
+      "ingredients": "• 1x Kit Magistral\n• 5x Kits Renforcés\n• 3x Kits de base\n• 102x Cristaux du Néant",
+      "details": "⚙️ Recette de fabrication de baguette avec Cristaux du Néant",
+      "date": "20/08/2026 à 20:58"
+    },
+    "Oxybelis": {
+      "ingredients": "• 1x Kit Magistral\n• 6x Kits Renforcés\n• 3x Kits de base\n• 102x Cristaux du Néant",
+      "details": "⚙️ Recette de fabrication de baguette avec Cristaux du Néant",
+      "date": "20/08/2026 à 20:58"
+    },
+    "Rosyboa": {
+      "ingredients": "• 1x Kit Magistral\n• 5x Kits Renforcés\n• 3x Kits de base\n• 102x Cristaux du Néant",
+      "details": "⚙️ Recette de fabrication de baguette avec Cristaux du Néant",
+      "date": "20/08/2026 à 20:58"
+    },
+    "Aiguemer": {
+      "ingredients": "• 8x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Cornaline": {
+      "ingredients": "• 4x Kits Magistraux\n• 3x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Jadeor": {
+      "ingredients": "• 4x Kits Magistraux\n• 5x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Héliodort": {
+      "ingredients": "• 4x Kits Magistraux\n• 1x Kit Renforcé",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Grenadigne": {
+      "ingredients": "• 4x Kits Magistraux\n• 3x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Songeur": {
+      "ingredients": "• 5x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sépucral": {
+      "ingredients": "• 8x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Rubicular": {
+      "ingredients": "• 5x Kits Magistraux\n• 5x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Emeroeil": {
+      "ingredients": "• 8x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Laziris": {
+      "ingredients": "• 2x Kits d'Excellence\n• 2x Kits Magistraux\n• 3x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ambregard": {
+      "ingredients": "• 5x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Irisée": {
+      "ingredients": "• 5x Kits Magistraux\n• 1x Kit Renforcé",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Tartaros": {
+      "ingredients": "• 5x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Erébos": {
+      "ingredients": "• 5x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Styx": {
+      "ingredients": "• 5x Kits Magistraux\n• 1x Kit Renforcé",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Achéron": {
+      "ingredients": "• 5x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Black Baccara": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Bleu Moon": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Botero": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Centifolia": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Purple Eden": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Nagrylia": {
+      "ingredients": "• 8x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Serpombre": {
+      "ingredients": "• 2x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Orpheline": {
+      "ingredients": "• 2x Kits d'Excellence\n• 9x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Coeur de Licorne": {
+      "ingredients": "• 4x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Améthyste": {
+      "ingredients": "• 7x Kits Magistraux\n• 5x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Azurin": {
+      "ingredients": "• 1x Kit d'Excellence\n• 1x Kit Magistral",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Metallica": {
+      "ingredients": "• 3x Kits d'Excellence\n• 7x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Théridion": {
+      "ingredients": "• 1x Kit d'Excellence\n• 6x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Vatia": {
+      "ingredients": "• 1x Kit d'Excellence\n• 1x Kit Magistral\n• 1x Kit Renforcé",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Virescens": {
+      "ingredients": "• 1x Kit d'Excellence\n• 7x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Caribena": {
+      "ingredients": "• 1x Kit d'Excellence\n• 7x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Astreline": {
+      "ingredients": "• 2x Kits d'Excellence\n• 8x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ombrelune": {
+      "ingredients": "• 3x Kits d'Excellence\n• 3x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Roselin": {
+      "ingredients": "• 4x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Labradorite": {
+      "ingredients": "• 3x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Jasper": {
+      "ingredients": "• 3x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Azurite": {
+      "ingredients": "• 3x Kits d'Excellence\n• 8x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Moldavite": {
+      "ingredients": "• 1x Kit d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Aragonite": {
+      "ingredients": "• 2x Kits d'Excellence\n• 4x Kits Magistraux\n• 4x Kits Renforcés",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ardente": {
+      "ingredients": "• 6x Kits d'Excellence\n• 4x Kits Magistraux",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Cygnus": {
+      "ingredients": "• 1x Kit d'Exception\n• 2x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Andromeda": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Auriga": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Eridani": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Pyxis": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Jildun": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Vildiur": {
+      "ingredients": "• 1x Kit d'Exception",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Vega": {
+      "ingredients": "• 1x Kit d'Exception\n• 5x Kits d'Excellence",
+      "details": "⚙️ Recette de fabrication de baguette",
+      "date": "20/08/2026 à 20:56"
+    }
+  }
+}
