@@ -103,6 +103,8 @@ class BalaisCog(commands.Cog, name="Le Balais de Mano"):
         await interaction.response.send_message(embed=embed)
 
     async def afficher_recette(self, interaction: discord.Interaction, nom: str):
+        from La_Baguette_de_Mano import service_baguettes
+
         data = service_balais.charger_recettes()
         b_dict = data.get('Recettesbalais', {})
         cle_trouvee = service_balais.trouver_cle(b_dict, nom)
@@ -123,6 +125,10 @@ class BalaisCog(commands.Cog, name="Le Balais de Mano"):
         embed.description = "**Programme :** Le Balais de Mano"
 
         if isinstance(item, dict):
+            ingr_texte = item.get("ingredients") or item.get("recette") or ""
+            analyse = service_baguettes.analyser_composants_recette(ingr_texte)
+            bois_argentciel = service_balais.extraire_bois_argentciel(ingr_texte)
+
             if item.get("ingredients"):
                 embed.add_field(name="🧪 Ingrédients / Composants", value=str(item["ingredients"]), inline=False)
             if item.get("details"):
@@ -130,14 +136,46 @@ class BalaisCog(commands.Cog, name="Le Balais de Mano"):
             if item.get("recette"):
                 embed.add_field(name="📜 Détails", value=str(item["recette"]), inline=False)
 
-            # Recherche du Prix de Vente PNJ
-            prix_data = service_balais.charger_prix()
-            ventes = prix_data.get("Prixdeventesbalais", {})
-            cle_prix = service_balais.trouver_cle(ventes, cle_trouvee)
-            if cle_prix and isinstance(ventes[cle_prix], dict):
-                pnj_texte = ventes[cle_prix].get("pnj")
-                if pnj_texte and pnj_texte != "?":
-                    embed.add_field(name="🪙 Prix de vente PNJ", value=f"**{pnj_texte}**", inline=False)
+            # Synthèse Cristaux Solaires, Bois d'Argentciel, Coûts & Temps de récolte
+            if analyse["kits_base"] > 0 or analyse["cristaux_extra"] > 0 or bois_argentciel > 0:
+                lignes_synthese = []
+                if analyse["kits_base"] > 0:
+                    lignes_synthese.append(f"📦 **Kits de base requis :** {int(analyse['kits_base']):,} kits".replace(',', ' '))
+                if analyse["cristaux_extra"] > 0:
+                    lignes_synthese.append(f"☀️ **Cristaux Solaires (hors kit de base) :** {int(analyse['cristaux_extra']):,}".replace(',', ' '))
+                if bois_argentciel > 0:
+                    lignes_synthese.append(f"🪵 **Bois d'Argentciel :** {int(bois_argentciel):,}".replace(',', ' '))
+                if analyse["cout_kits"] > 0:
+                    lignes_synthese.append(f"💰 **Coût estimé des kits :** {int(analyse['cout_kits']):,} Galyons *(3 200 G/kit)*".replace(',', ' '))
+                if analyse["temps_recolte_minutes"] > 0:
+                    mins_totales = int(analyse["temps_recolte_minutes"])
+                    heures = mins_totales // 60
+                    mins_restantes = mins_totales % 60
+                    if heures > 0:
+                        temps_formatte = f"{mins_totales:,} min (~{heures}h{f'{mins_restantes:02d}' if mins_restantes > 0 else ''})".replace(',', ' ')
+                    else:
+                        temps_formatte = f"{mins_totales} min"
+                    lignes_synthese.append(f"⏱️ **Temps estimé de récolte (19 min/kit) :** {temps_formatte}")
+
+                # Recherche du Prix de Vente PNJ
+                prix_data = service_balais.charger_prix()
+                ventes = prix_data.get("Prixdeventesbalais", {})
+                cle_prix = service_balais.trouver_cle(ventes, cle_trouvee)
+                if cle_prix and isinstance(ventes[cle_prix], dict):
+                    pnj_texte = ventes[cle_prix].get("pnj")
+                    if pnj_texte and pnj_texte != "?":
+                        lignes_synthese.append(f"🪙 **Prix de vente PNJ :** **{pnj_texte}**")
+
+                embed.add_field(name="📊 Synthèse des Composants Clés", value="\n".join(lignes_synthese), inline=False)
+            else:
+                # Si aucun composant clé mais prix PNJ existant
+                prix_data = service_balais.charger_prix()
+                ventes = prix_data.get("Prixdeventesbalais", {})
+                cle_prix = service_balais.trouver_cle(ventes, cle_trouvee)
+                if cle_prix and isinstance(ventes[cle_prix], dict):
+                    pnj_texte = ventes[cle_prix].get("pnj")
+                    if pnj_texte and pnj_texte != "?":
+                        embed.add_field(name="🪙 Prix de vente PNJ", value=f"**{pnj_texte}**", inline=False)
 
             if "date" in item:
                 embed.set_footer(text=f"Dernière mise à jour : {item['date']}")
