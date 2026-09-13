@@ -185,3 +185,30 @@ def lister_recettes_ordonnees() -> list[tuple[str, str]]:
     data = charger_recettes()
     balais_dict = data.get('Recettesbalais', {})
     return [(k, "🧹 Balais") for k in sorted(balais_dict.keys())]
+
+
+def extraire_bois_argentciel(texte_ingredients: str) -> float:
+    """
+    Retourne la quantité totale de Bois d'Argentciel mentionnée
+    directement dans le texte des ingrédients (sans tenir compte des ratios de kits).
+    """
+    if not texte_ingredients:
+        return 0.0
+    total = 0.0
+    for ligne in str(texte_ingredients).splitlines():
+        texte = ligne.strip().lstrip('•-*·–—').strip()
+        if not texte:
+            continue
+        if 'argentciel' not in normaliser(texte):
+            continue
+        # Formats acceptés : "Nx ...", "N x ..." ou "N × ..."
+        m = re.match(r'^(\d[\d\s\xa0\u202f]*)[x×]', texte, re.IGNORECASE)
+        if not m:
+            m = re.match(r'^(\d[\d\s\xa0\u202f]+)', texte)
+        if m:
+            try:
+                qte = float(re.sub(r'[\s\xa0\u202f]', '', m.group(1)))
+                total += qte
+            except ValueError:
+                pass
+    return total
