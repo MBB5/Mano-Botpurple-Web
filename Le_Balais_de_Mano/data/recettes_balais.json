@@ -1,3 +1,484 @@
 {
-  "Recettesbalais": {}
+  "Recettesbalais": {
+    "Kit de balai": {
+      "ingredients": "• 10x Bois D'Argentciel\n• 10x Bois D'Ombre-éclat\n• 10x Bois de Vigile-Obscure\n• 10x Cristal Solaire\n• 10x Os Ancestraux\n• 10x Néant Déferlant\n• 10x Néant Flamboyant\n• 10x Néant Arcanique\n• 10x Cristal du Néant\n• 10x Néant Tellurique\n• 10x Néant Funeste",
+      "details": "📦 Composants de base pour la fabrication d'un kit de balai simple",
+      "date": "20/08/2026"
+    },
+    "Kit Renforcé": {
+      "ingredients": "• 6x Kits de balai\n• 2x Bois d'Argentciel\n• 3x Éclats Fulguriens",
+      "details": "⚙️ Palier d'assemblage renforcé",
+      "date": "20/08/2026"
+    },
+    "Kit Magistral": {
+      "ingredients": "• 10x Kits Renforcés",
+      "details": "⚙️ Palier d'assemblage magistral",
+      "date": "20/08/2026"
+    },
+    "Kit d'Excellence": {
+      "ingredients": "• 10x Kits Magistraux",
+      "details": "⚙️ Palier d'assemblage d'excellence",
+      "date": "20/08/2026"
+    },
+    "Kit d'Exception": {
+      "ingredients": "• 10x Kits d'Excellence",
+      "details": "⚙️ Palier d'assemblage d'exception",
+      "date": "20/08/2026"
+    },
+    "Balai débutant Brunvolant": {
+      "ingredients": "• 3x Kits de balai\n• 42x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai débutant Volclair": {
+      "ingredients": "• 2x Kits Renforcés\n• 103x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai débutant Volombré": {
+      "ingredients": "• 3x Kits Renforcés\n• 1x Kit de balai\n• 125x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Boislong": {
+      "ingredients": "• 5x Kits Renforcés\n• 6x Kits de balai\n• 81x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Terreplane": {
+      "ingredients": "• 5x Kits Renforcés\n• 6x Kits de balai\n• 133x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Éclaircourt": {
+      "ingredients": "• 6x Kits Renforcés\n• 48x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Plante marron": {
+      "ingredients": "• 1x Kit Magistral\n• 148x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Plante Verte": {
+      "ingredients": "• 1x Kit Magistral\n• 2x Kits Renforcés\n• 4x Kits de balai\n• 81x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Sakura": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux\n• 8x Kits Renforcés\n• 5x Kits de balai\n• 132x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Awoba": {
+      "ingredients": "• 9x Kits Magistraux\n• 2x Kits Renforcés\n• 6x Kits de balai\n• 4x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Kareeda": {
+      "ingredients": "• 1x Kit d'Excellence\n• 3x Kits Magistraux\n• 3x Kits Renforcés\n• 143x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Rongebois": {
+      "ingredients": "• 3x Kits d'Excellence\n• 5x Kits Magistraux\n• 2x Kits Renforcés\n• 4x Kits de balai\n• 90x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Lombrasier": {
+      "ingredients": "• 2x Kits d'Excellence\n• 8x Kits Magistraux\n• 4x Kits Renforcés\n• 1x Kit de balai\n• 111x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Briselune": {
+      "ingredients": "• 2x Kits d'Excellence\n• 8x Kits Magistraux\n• 4x Kits Renforcés\n• 1x Kit de balai\n• 111x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Vervenin": {
+      "ingredients": "• 2x Kits d'Excellence\n• 8x Kits Magistraux\n• 5x Kits Renforcés\n• 9x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Stormchopper": {
+      "ingredients": "• 6x Kits d'Excellence\n• 3x Kits Renforcés\n• 4x Kits de balai\n• 126x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Biker": {
+      "ingredients": "• 6x Kits d'Excellence\n• 7x Kits Renforcés\n• 4x Kits de balai\n• 123x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Pinkrider": {
+      "ingredients": "• 5x Kits d'Excellence\n• 2x Kits Magistraux\n• 7x Kits Renforcés\n• 5x Kits de balai\n• 35x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Lancéclair": {
+      "ingredients": "• 7x Kits d'Excellence\n• 9x Kits Magistraux\n• 5x Kits Renforcés\n• 3x Kits de balai\n• 117x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Perceciel": {
+      "ingredients": "• 8x Kits d'Excellence\n• 3x Kits Renforcés\n• 3x Kits de balai\n• 107x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Aeternion": {
+      "ingredients": "• 9x Kits d'Excellence\n• 7x Kits Renforcés\n• 3x Kits de balai\n• 14x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Oracle": {
+      "ingredients": "• 4x Kits Magistraux\n• 7x Kits Renforcés\n• 4x Kits de balai\n• 104x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai aspirateur": {
+      "ingredients": "• 2x Kits d'Excellence\n• 1x Kit Magistral\n• 1x Kit Renforcé\n• 72x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Osséclair": {
+      "ingredients": "• 2x Kits d'Excellence\n• 2x Kits Magistraux\n• 1x Kit Renforcé\n• 64x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Voile Funèbre Obsidienne": {
+      "ingredients": "• 8x Kits d'Excellence\n• 7x Kits Renforcés\n• 3x Kits de balai\n• 104x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Voile Funèbre Emeraude Fendue": {
+      "ingredients": "• 9x Kits d'Excellence\n• 7x Kits Renforcés\n• 3x Kits de balai\n• 14x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Voile Funèbre Carmin": {
+      "ingredients": "• 8x Kits d'Excellence\n• 9x Kits Magistraux\n• 9x Kits Renforcés\n• 3x Kits de balai\n• 24x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Voile Funèbre Or Félé": {
+      "ingredients": "• 8x Kits d'Excellence\n• 9x Kits Magistraux\n• 1x Kit Renforcé\n• 3x Kits de balai\n• 29x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Voile Funèbre Saphir Voilé": {
+      "ingredients": "• 9x Kits d'Excellence\n• 7x Kits Renforcés\n• 3x Kits de balai\n• 14x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Voile Funèbre Rosée Sanglante": {
+      "ingredients": "• 1x Kit d'Exception\n• 1x Kit Magistral\n• 1x Kit Renforcé\n• 2x Kits de balai\n• 78x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ambreda Emero": {
+      "ingredients": "• 7x Kits d'Excellence\n• 1x Kit Magistral\n• 1x Kit Renforcé\n• 4x Kits de balai\n• 29x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ambreda Rubiro": {
+      "ingredients": "• 7x Kits d'Excellence\n• 7x Kits Renforcés\n• 4x Kits de balai\n• 34x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ambreda Topaza": {
+      "ingredients": "• 7x Kits d'Excellence\n• 3x Kits Renforcés\n• 4x Kits de balai\n• 36x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ambreda Saphirie": {
+      "ingredients": "• 7x Kits d'Excellence\n• 7x Kits Renforcés\n• 4x Kits de balai\n• 34x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ambreda Rosira": {
+      "ingredients": "• 7x Kits d'Excellence\n• 3x Kits Renforcés\n• 4x Kits de balai\n• 36x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sylveluxe Rosaflore": {
+      "ingredients": "• 4x Kits d'Excellence\n• 2x Kits Magistraux\n• 7x Kits Renforcés\n• 5x Kits de balai\n• 125x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sylveluxe Syringa": {
+      "ingredients": "• 5x Kits d'Excellence\n• 1x Kit Magistral\n• 1x Kit Renforcé\n• 5x Kits de balai\n• 48x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sylveluxe Dorélys": {
+      "ingredients": "• 4x Kits d'Excellence\n• 9x Kits Magistraux\n• 9x Kits Renforcés\n• 5x Kits de balai\n• 63x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sylveluxe Pyroflore": {
+      "ingredients": "• 5x Kits d'Excellence\n• 3x Kits Renforcés\n• 5x Kits de balai\n• 55x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sylveluxe Verdanthis": {
+      "ingredients": "• 5x Kits d'Excellence\n• 1x Kit Magistral\n• 1x Kit Renforcé\n• 5x Kits de balai\n• 48x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Rougegorge": {
+      "ingredients": "• 6x Kits d'Excellence\n• 5x Kits Magistraux\n• 5x Kits Renforcés\n• 4x Kits de balai\n• 81x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Couronnécaille": {
+      "ingredients": "• 6x Kits d'Excellence\n• 5x Kits Magistraux\n• 5x Kits Renforcés\n• 4x Kits de balai\n• 81x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Verfouet": {
+      "ingredients": "• 6x Kits d'Excellence\n• 6x Kits Magistraux\n• 3x Kits Renforcés\n• 4x Kits de balai\n• 73x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Pyrovène": {
+      "ingredients": "• 6x Kits d'Excellence\n• 5x Kits Magistraux\n• 5x Kits Renforcés\n• 4x Kits de balai\n• 81x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Wabi-Sabi": {
+      "ingredients": "• 8x Kits Magistraux\n• 4x Kits Renforcés\n• 2x Kits de balai\n• 130x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Kanso": {
+      "ingredients": "• 8x Kits Magistraux\n• 5x Kits Renforcés\n• 7x Kits de balai\n• 112x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Shizen": {
+      "ingredients": "• 1x Kit d'Excellence\n• 2x Kits Magistraux\n• 3x Kits Renforcés\n• 7x Kits de balai\n• 76x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Shibumi": {
+      "ingredients": "• 8x Kits Magistraux\n• 3x Kits Renforcés\n• 1x Kit de balai\n• 29x Cristal Solaire",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Yugen": {
+      "ingredients": "• 8x Kits Magistraux\n• 4x Kits Renforcés\n• 2x Kits de balai\n• 130x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Aurichal": {
+      "ingredients": "• 3x Kits d'Excellence\n• 3x Kits Magistraux\n• 7x Kits de balai\n• 151x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Electrum": {
+      "ingredients": "• 4x Kits d'Excellence\n• 3x Kits Renforcés\n• 5x Kits de balai\n• 145x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Argentis": {
+      "ingredients": "• 3x Kits d'Excellence\n• 9x Kits Magistraux\n• 9x Kits Renforcés\n• 5x Kits de balai\n• 153x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Aurum": {
+      "ingredients": "• 2x Kits d'Excellence\n• 6x Kits Magistraux\n• 1x Kit Renforcé\n• 3x Kits de balai\n• 71x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Rhodial": {
+      "ingredients": "• 3x Kits d'Excellence\n• 3x Kits Magistraux\n• 7x Kits de balai\n• 151x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Lipizzan": {
+      "ingredients": "• 3x Kits d'Excellence\n• 7x Kits Magistraux\n• 2x Kits Renforcés\n• 7x Kits de balai\n• 115x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Frison": {
+      "ingredients": "• 4x Kits d'Excellence\n• 4x Kits Magistraux\n• 7x Kits Renforcés\n• 5x Kits de balai\n• 108x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Appaloosa": {
+      "ingredients": "• 1x Kit d'Exception\n• 2x Kits d'Excellence\n• 2x Kits Magistraux\n• 3x Kits Renforcés\n• 1x Kit de balai\n• 48x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Akhal": {
+      "ingredients": "• 4x Kits d'Excellence\n• 6x Kits Magistraux\n• 3x Kits Renforcés\n• 5x Kits de balai\n• 93x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Falabella": {
+      "ingredients": "• 2x Kits d'Excellence\n• 6x Kits Magistraux\n• 5x Kits Renforcés\n• 3x Kits de balai\n• 68x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Unicornis": {
+      "ingredients": "• 3x Kits d'Exception\n• 9x Kits d'Excellence\n• 7x Kits Magistraux\n• 7x Kits Renforcés\n• 2x Kits de balai\n• 30x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Hibernica": {
+      "ingredients": "• 7x Kits Renforcés\n• 5x Kits de balai\n• 83x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Goldheart": {
+      "ingredients": "• 6x Kits Renforcés\n• 3x Kits de balai\n• 143x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Purpurea": {
+      "ingredients": "• 6x Kits Renforcés\n• 3x Kits de balai\n• 38x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Strobilanthes": {
+      "ingredients": "• 7x Kits Renforcés\n• 4x Kits de balai\n• 139x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Sulphur Heart": {
+      "ingredients": "• 6x Kits Renforcés\n• 2x Kits de balai\n• 146x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "BMX": {
+      "ingredients": "• 2x Kits Magistraux\n• 2x Kits Renforcés\n• 7x Kits de balai\n• 62x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Tethys": {
+      "ingredients": "• 1x Kit Magistral\n• 2,5x Kits Renforcés\n• 2x Kits de balai\n• 86x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Le VTT": {
+      "ingredients": "• 1x Kit Magistral\n• 2x Kits Renforcés\n• 80x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "VTC": {
+      "ingredients": "• 1x Kit Magistral\n• 4x Kits Renforcés\n• 6x Kits de balai\n• 73x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Pinkécais": {
+      "ingredients": "• 1x Kit Magistral\n• 4x Kits Renforcés\n• 6x Kits de balai\n• 73x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Racinome": {
+      "ingredients": "• 8x Kits d'Excellence\n• 6x Kits Magistraux\n• 3x Kits Renforcés\n• 3x Kits de balai\n• 54x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Balai Plante marron": {
+      "ingredients": "• 1x Kit d'Exception\n• 5x Kits Magistraux\n• 9x Kits Renforcés\n• 2x Kits de balai\n• 38x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Kleiéris": {
+      "ingredients": "• 8x Kits d'Excellence\n• 6x Kits Magistraux\n• 7x Kits Renforcés\n• 3x Kits de balai\n• 52x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Ramuro": {
+      "ingredients": "• 8x Kits d'Excellence\n• 6x Kits Magistraux\n• 3x Kits Renforcés\n• 3x Kits de balai\n• 54x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Épinus": {
+      "ingredients": "• 8x Kits d'Excellence\n• 6x Kits Magistraux\n• 3x Kits Renforcés\n• 3x Kits de balai\n• 54x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Béhaimix": {
+      "ingredients": "• 1x Kit d'Exception\n• 2x Kits Magistraux\n• 3x Kits Renforcés\n• 2x Kits de balai\n• 68x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Vétécais": {
+      "ingredients": "• 1x Kit d'Exception\n• 2x Kits Magistraux\n• 7x Kits Renforcés\n• 2x Kits de balai\n• 65x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Classy Brooms Atelier Balai-Golmus Miraculum": {
+      "ingredients": "• 7x Kits d'Excellence\n• 9x Kits Magistraux\n• 1x Kit Renforcé\n• 3x Kits de balai\n• 119x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Vététais": {
+      "ingredients": "• 1x Kit d'Exception\n• 3x Kits Magistraux\n• 9x Kits Renforcés\n• 2x Kits de balai\n• 55x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Tétais": {
+      "ingredients": "• 1x Kit d'Exception\n• 2x Kits Magistraux\n• 3x Kits Renforcés\n• 2x Kits de balai\n• 68x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Plume ciel": {
+      "ingredients": "• 3x Kits Magistraux\n• 7x Kits de balai\n• 2x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Bec flèche": {
+      "ingredients": "• 3x Kits Magistraux\n• 8x Kits Renforcés\n• 6x Kits de balai\n• 105x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Tototem": {
+      "ingredients": "• 1x Kit Magistral\n• 3x Kits de balai\n• 138x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Serresang": {
+      "ingredients": "• 1x Kit Magistral\n• 9x Kits Renforcés\n• 3x Kits de balai\n• 80x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Crépusc'aile": {
+      "ingredients": "• 1x Kit Magistral\n• 9x Kits Renforcés\n• 3x Kits de balai\n• 80x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Fulgur": {
+      "ingredients": "• 2x Kits d'Exception\n• 1x Kit d'Excellence\n• 4x Kits Magistraux\n• 2x Kits Renforcés\n• 4x Kits de balai\n• 48x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Éternis": {
+      "ingredients": "• 2x Kits d'Exception\n• 4x Kits Magistraux\n• 2x Kits Renforcés\n• 4x Kits de balai\n• 138x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Archonte": {
+      "ingredients": "• 2x Kits d'Exception\n• 1x Kit Magistral\n• 4x Kits Renforcés\n• 5x Kits de balai\n• 3x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Méridien": {
+      "ingredients": "• 2x Kits d'Exception\n• 3x Kits Magistraux\n• 4x Kits de balai\n• 148x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Zénith": {
+      "ingredients": "• 2x Kits d'Exception\n• 3x Kits Magistraux\n• 4x Kits de balai\n• 148x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    },
+    "Classy Brooms Atelier Ossécime": {
+      "ingredients": "• 4x Kits d'Excellence\n• 3x Kits Magistraux\n• 5x Kits Renforcés\n• 5x Kits de balai\n• 118x Cristaux Solaires",
+      "details": "⚙️ Recette de fabrication de balai",
+      "date": "20/08/2026 à 20:56"
+    }
+  }
 }
